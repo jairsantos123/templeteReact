@@ -1,17 +1,18 @@
-import "./App.css";
-import Header from "./components/Header/Header.jsx";
-import Hero from "./components/Hero/Hero.jsx";
-import Features from "./components/Features/Features.jsx";
-import Footer from "./components/Footer/Footer.jsx";
+import "./App.css"
+import Header from "./components/Header/Header"
+import Hero from "./components/Hero/Hero"
+import Features from "./components/Features/Features"
+import Footer from "./components/Footer/Footer"
 
-
-export default App() {
-    return (
-        <div className="app">
-            <Header />
-            <Hero />
-            // <Features />
-            // <Footer />
-        </div>
-    )
+function App() {
+  return (
+    <div className="app">
+      <Header />
+      <Hero />
+      <Features />
+      <Footer />
+    </div>
+  )
 }
+
+export default App
