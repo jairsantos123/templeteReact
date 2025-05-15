@@ -1,12 +1,12 @@
 .features {
   padding: 4rem 2rem;
-  background-color: white;
+  background-color: rgb(85, 85, 85);
 }
 
 .features h2 {
   text-align: center;
   margin-bottom: 3rem;
-  color: #333;
+  color: #f4efef;
 }
 
 .features-grid {
